@@ -3,9 +3,12 @@
 Public skill repository for using [PostgresAudit](https://postgresaudit.com/) as
 a safe, read-only PostgreSQL audit workflow.
 
+![PostgresAudit mark](./assets/postgresaudit-icon.png)
+
 ## Included skill
 
 - `skills/postgresaudit-readonly-audit`
+- root `SKILL.md` for registries that only inspect repository root
 
 ## What this skill does
 
@@ -28,3 +31,8 @@ Or deep-link to the skill folder when a registry supports direct imports:
 ```bash
 https://github.com/daanaagua/postgresaudit-skill/tree/main/skills/postgresaudit-readonly-audit
 ```
+
+## Brand assets
+
+- `assets/postgresaudit-icon.svg`
+- `assets/postgresaudit-icon.png`
