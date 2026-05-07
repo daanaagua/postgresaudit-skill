@@ -1,9 +1,9 @@
-# PostgresAudit Skill Pack
+# Database Optimization Tool PostgreSQL Skill Pack
 
-Public skill repository for using [PostgresAudit](https://postgresaudit.com/) as
-a safe, read-only PostgreSQL audit workflow.
+Public skill repository for using the [Database Optimization Tool PostgreSQL page](https://databaseoptimizationtool.com/postgresql/)
+as a safe, read-only PostgreSQL audit workflow.
 
-![PostgresAudit mark](./assets/postgresaudit-icon.png)
+![Database Optimization Tool mark](./assets/postgresaudit-icon.png)
 
 ## Included skill
 
@@ -12,7 +12,7 @@ a safe, read-only PostgreSQL audit workflow.
 
 ## What this skill does
 
-This skill teaches AI agents when and how to use `https://postgresaudit.com/`
+This skill teaches AI agents when and how to use `https://databaseoptimizationtool.com/postgresql/`
 for least-privilege PostgreSQL reviews. It focuses on:
 
 - read-only audit setup

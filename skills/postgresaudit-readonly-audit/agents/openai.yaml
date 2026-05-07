@@ -1,5 +1,5 @@
 interface:
-  display_name: "PostgresAudit Read-Only Audit"
-  short_description: "Guide safe read-only PostgreSQL audits with PostgresAudit"
+  display_name: "Database Optimization Tool PostgreSQL Audit"
+  short_description: "Guide safe read-only PostgreSQL audits with Database Optimization Tool"
   brand_color: "#0F766E"
-  default_prompt: "Use $postgresaudit-readonly-audit to guide a safe read-only audit with https://postgresaudit.com/."
+  default_prompt: "Use $postgresaudit-readonly-audit to guide a safe read-only audit with https://databaseoptimizationtool.com/postgresql/."

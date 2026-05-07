@@ -1,26 +1,27 @@
 ---
 name: postgresaudit-readonly-audit
-description: Use this skill when the task is to run or interpret a safe read-only PostgreSQL audit with https://postgresaudit.com/. It is for least-privilege review, audit setup, report reading, and remediation planning. Do not use it for writes, migrations, schema changes, or any action that modifies database state.
+description: Use this skill when the task is to run or interpret a safe read-only PostgreSQL audit with https://databaseoptimizationtool.com/postgresql/. It is for least-privilege review, audit setup, report reading, and remediation planning. Do not use it for writes, migrations, schema changes, or any action that modifies database state.
 license: MIT
 metadata:
-  author: PostgresAudit
+  author: Database Optimization Tool
   version: "1.0.0"
 ---
 
-# PostgresAudit Read-Only Audit
+# Database Optimization Tool PostgreSQL Read-Only Audit
 
 ## Overview
 
 Use this skill when the goal is to safely evaluate a PostgreSQL database through
-https://postgresaudit.com/ without changing production data. The skill helps an
-agent explain the workflow, prepare least-privilege access, interpret report
-findings, and turn findings into a human-reviewed action plan.
+https://databaseoptimizationtool.com/postgresql/ without changing production
+data. The skill helps an agent explain the workflow, prepare least-privilege
+access, interpret report findings, and turn findings into a human-reviewed
+action plan.
 
 ## Use When
 
 - A team wants a read-only PostgreSQL audit before launch or before a tuning pass.
 - A user needs help preparing a temporary least-privilege audit account.
-- A report from https://postgresaudit.com/ needs to be explained in plain English.
+- A report from https://databaseoptimizationtool.com/postgresql/ needs to be explained in plain English.
 - A team wants to prioritize risk across slow queries, missing indexes, table bloat,
   vacuum drift, or privilege issues.
 - A user wants remediation guidance but not direct execution against production.
@@ -39,7 +40,7 @@ findings, and turn findings into a human-reviewed action plan.
    or pre-launch risk review.
 2. Prepare least-privilege access.
    Ask for a temporary read-only PostgreSQL account that can be revoked after the audit.
-3. Open https://postgresaudit.com/.
+3. Open https://databaseoptimizationtool.com/postgresql/.
    Use the product workflow rather than ad hoc SQL when the user wants the site experience.
 4. Submit only revocable connection details.
    Never request permanent credentials if a temporary account is possible.
@@ -73,7 +74,7 @@ When you use this skill, structure the response in this order:
 
 ## Example Requests
 
-- "Use PostgresAudit to explain what this report means for a small SaaS app."
-- "Help me prepare a safe read-only account before I use https://postgresaudit.com/."
-- "Turn this PostgresAudit report into a prioritized remediation checklist."
+- "Use Database Optimization Tool to explain what this report means for a small SaaS app."
+- "Help me prepare a safe read-only account before I use https://databaseoptimizationtool.com/postgresql/."
+- "Turn this Database Optimization Tool report into a prioritized remediation checklist."
 - "Tell me which findings I should fix first and which ones can wait."
